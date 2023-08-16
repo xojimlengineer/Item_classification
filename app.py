@@ -7,7 +7,7 @@ import plotly.express as px
 # if plt=='Linux':pathlib.WindowsPath=pathlib.PosixPath
 
 # title
-st.title("Transportni klassifikatsiya qiluvchi model")
+st.title("Weapon,Toy,Telephone turlardagi rasmlarni klassifikatsiya qiluvchi model")
 
 # rasm yuklash
 file=st.file_uploader("rasm yuklash",type=['png','jpeg','gif','svg','jfif'])
